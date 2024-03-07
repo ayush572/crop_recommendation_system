@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Kisaan Saaheta</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='myhome.css')}}">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Kisaan Saheta</h1>
+      <p style="color: black;">
+        Kisaan Saheta is a platform for farmers to get the best crop recommendation based on the soil and weather conditions. It is a platform where farmers can get the best advice from the highly accurate "Crop Recommendation System" and can also get the best quality seeds and fertilizers.
+    </p>
+      <br>
+      <h3 style="color: black;">Let's Start New Journey With Kisaan Saheta</h3>
+      <br>
+      <h2 style="color: black;">Click following button for Crop recommandation</h2>
+    </main>
+     <form action="/Predict">
+      <input type="submit" id="Predict" name="Predict" action="/Predict" value="Predict">
+     </form>
+  </body>
+</html>
